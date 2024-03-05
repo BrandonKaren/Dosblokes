@@ -1,18 +1,13 @@
 .container {
 
-    margin-top: 0px;
+    margin-top: 20px;
     border: 0px solid black;
     width: 2000px;
-    height: 600px;
+    height: 700px;
     padding-top: 10px;
     padding-left: 400px;
-
-}
-
-body {
-
     background: linear-gradient(to bottom, white, #d35400);
-    background-image: image();
+
 }
 
 #enviar {
@@ -23,6 +18,7 @@ body {
  h3 {
     
     padding-left: 100px;
+    margin-top: 30px;
     margin-bottom: 30px;
  }
 
@@ -31,7 +27,64 @@ body {
     margin-bottom: 10px;
  }
 
- #img {
-    padding-top: 30px;
-    padding-left: 30px;
+ #logo{
+
+    padding-top: 10px;
  }
+
+
+ body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    /* background-image: url(img/logo.bmp);
+    background-size: cover; /* Para ajustar el tamaño de la imagen */
+    background-position: center;
+}
+
+.login-container {
+    width: 300px;
+}
+
+.login-form {
+    background-color: #e67e22;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d35400;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e67e22;
+}
