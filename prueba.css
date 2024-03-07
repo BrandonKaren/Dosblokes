@@ -71,6 +71,7 @@
     -webkit-animation: ground-shine var(--duration) linear forwards infinite;
     animation: ground-shine var(--duration) linear forwards infinite;
     
+    
   }
   
   .loader .ground div:after {
@@ -100,6 +101,7 @@
     -webkit-animation: var(--duration) ease forwards infinite;
     animation: var(--duration) ease forwards infinite;
     transform: rotateY(-47deg) rotateX(-15deg) rotateZ(15deg) scale(0);
+    
     
   }
   
@@ -167,6 +169,7 @@
     --y: -120px;
     left: 25px;
     top: 76px;
+    
   }
   
   .loader .box.box6 {
