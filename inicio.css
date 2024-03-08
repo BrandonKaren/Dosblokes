@@ -1,4 +1,4 @@
-.input {
+/* .input {
     display: flex;
     flex-direction: column;
     width: 200px;
@@ -68,4 +68,13 @@
     filter: blur(1.5px);
     transform: scale(0.95, 0.95);
   }
-  
+   */
+
+
+.navbar-toggler {
+    background-color: rgb(251, 249, 249);
+}
+
+.navbar-toggler-icon {
+    background-color: rgb(5, 5, 5);
+}
