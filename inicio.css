@@ -72,9 +72,16 @@
 
 
 .navbar-toggler {
-    background-color: rgb(251, 249, 249);
+    background-color: rgb(248, 246, 246);
+    border-radius: none;
+    box-shadow: 5px solid rgb(12, 12, 12);
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(5, 5, 5);
+    background-color: rgb(12, 12, 12);
+    margin: 3px;
+}
+
+.navbar {
+    background-image: url(img/fondolog.jpg);
 }
