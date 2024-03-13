@@ -78,10 +78,17 @@
 }
 
 .navbar-toggler-icon {
-    background-color: rgb(12, 12, 12);
+    background-color: rgb(252, 250, 250);
     margin: 3px;
 }
 
 .navbar {
     background-image: url(img/fondolog.jpg);
+}
+
+.navbar-brand {
+    font-family: "Domine", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
 }
