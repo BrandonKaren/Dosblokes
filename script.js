@@ -31,7 +31,12 @@ function eliminarFila(botton) {
     // }
 }
 
-function crearempleado(button) {
-    document.location.href=crearempleado.ejs;
+function generarContrato () {
+    
 }
+
+
+// function crearempleado(button) {
+//     document.location.href=crearempleado.ejs;
+// }
 
