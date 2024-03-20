@@ -93,13 +93,16 @@
                     <td><input type="text" value="valor" name="valorund" required></td>
                     <td><input type="text" value="total" name="total" required></td>
                     <td><button onclick="eliminarFila(this)">Eliminar fila</button></td>
-                </tr>    
+                </tr>
             </tbody>
             
         </table>
     </div>
-
-    <button onclick="insertarFila()">Insertar fila</button>
+    <div  class="d-grid gap-2 d-md-flex justify-content-md-end">
+      <button onclick="insertarFila()">Insertar fila</button>
+      <button class="me-md-2">Generar Contrato</button>
+          
+    </div>
     
 
 <script src="script.js"> </script>

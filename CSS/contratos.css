@@ -1,10 +1,9 @@
 .table-responsive {
-
-    margin-top: 10%;
-
+    position: static;
+    margin-top: 60px;
     text-align: center;
-}
 
+}
 
 
 button {
@@ -14,8 +13,17 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+
+    
 }
 
 button:hover {
     background-color: #e67e22;
+}
+
+input[type='number'] {
+    width: 55px;
+}
+input[type='text']{
+    width: 100px;
 }

@@ -82,7 +82,7 @@ label {
     justify-content: center;
     align-items: center;
     background-color: #f0f0f0;
-    background-image: url(/img/fondolog.jpg);
+    background-image: url(/img/fondolog.png);
     background-size: cover; /* Para ajustar el tamaño de la imagen */
     background-position: center;
 }
